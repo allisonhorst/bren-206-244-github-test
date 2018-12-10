@@ -1,0 +1,28 @@
+---
+title: "ESM 206/244 GitHub Testing"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Type your name (or anything else) HERE: 
+
+Here's some code (change the variable names and values):
+```{r}
+# Change these variable names and values:
+
+blue <- 10
+
+red <- 15
+
+purple <- blue/red
+
+```
+
+After making minimal changes, SAVE this .Rmd (default will be to the project folder, but check to make sure).
+
+Notice that if you click on the 'Git' tab (up by the Environment tab), now your newly created Project (.Rproj) and updated .Rmd are there (along with, probably, a gitignore file that you don't really need to worry about).
+
+Stage, commit, and push your updates back to github (see the step-by-step document).
